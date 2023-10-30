@@ -151,6 +151,8 @@
 				<string>YES</string>
 				<key>CURRENT_PROJECT_VERSION</key>
 				<string>$(FLUTTER_BUILD_NUMBER)</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>P7J63583PS</string>
 				<key>ENABLE_BITCODE</key>
 				<string>NO</string>
 				<key>INFOPLIST_FILE</key>
@@ -604,8 +606,6 @@
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
 			<key>path</key>
 			<string>Pods</string>
 			<key>sourceTree</key>
@@ -1233,6 +1233,8 @@
 				<string>YES</string>
 				<key>CURRENT_PROJECT_VERSION</key>
 				<string>$(FLUTTER_BUILD_NUMBER)</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>P7J63583PS</string>
 				<key>ENABLE_BITCODE</key>
 				<string>NO</string>
 				<key>INFOPLIST_FILE</key>
@@ -1272,6 +1274,8 @@
 				<string>YES</string>
 				<key>CURRENT_PROJECT_VERSION</key>
 				<string>$(FLUTTER_BUILD_NUMBER)</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>P7J63583PS</string>
 				<key>ENABLE_BITCODE</key>
 				<string>NO</string>
 				<key>INFOPLIST_FILE</key>
