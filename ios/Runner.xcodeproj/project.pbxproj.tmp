@@ -149,6 +149,10 @@
 				<string>AppIcon</string>
 				<key>CLANG_ENABLE_MODULES</key>
 				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY</key>
+				<string>iPhone Developer: Created via API (WKDN5CG37J)</string>
+				<key>CODE_SIGN_STYLE</key>
+				<string>Manual</string>
 				<key>CURRENT_PROJECT_VERSION</key>
 				<string>$(FLUTTER_BUILD_NUMBER)</string>
 				<key>DEVELOPMENT_TEAM</key>
@@ -166,6 +170,8 @@
 				<string>com.org.flutterTestApp</string>
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
+				<key>PROVISIONING_PROFILE_SPECIFIER</key>
+				<string>flutter test app bundle id ios_app_development 1698667553</string>
 				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
 				<string>Runner/Runner-Bridging-Header.h</string>
 				<key>SWIFT_VERSION</key>
@@ -177,26 +183,6 @@
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Profile</string>
-		</dict>
-		<key>26FD47D81A1B14141564DBBF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CF062CBD9BE130D4F3224FD7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>27968D8D38C24245C62163C1</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_RunnerTests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>331C807B294A618700263BE5</key>
 		<dict>
@@ -239,7 +225,6 @@
 			<string>331C8087294A63A400263BE5</string>
 			<key>buildPhases</key>
 			<array>
-				<string>9BE102E871B5DBD2E21A5549</string>
 				<string>331C807D294A63A400263BE5</string>
 				<string>331C807F294A63A400263BE5</string>
 				<string>8951EDEEAB8FB2B65AB03D02</string>
@@ -326,16 +311,18 @@
 		</dict>
 		<key>331C8088294A63A400263BE5</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C1AF0B2B9883C84AB8B20466</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>BUNDLE_LOADER</key>
 				<string>$(TEST_HOST)</string>
+				<key>CODE_SIGN_IDENTITY</key>
+				<string>iPhone Developer: Created via API (WKDN5CG37J)</string>
 				<key>CODE_SIGN_STYLE</key>
-				<string>Automatic</string>
+				<string>Manual</string>
 				<key>CURRENT_PROJECT_VERSION</key>
 				<string>1</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>P7J63583PS</string>
 				<key>GENERATE_INFOPLIST_FILE</key>
 				<string>YES</string>
 				<key>MARKETING_VERSION</key>
@@ -360,16 +347,18 @@
 		</dict>
 		<key>331C8089294A63A400263BE5</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>3E07C0190D520DE2747B0B01</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>BUNDLE_LOADER</key>
 				<string>$(TEST_HOST)</string>
+				<key>CODE_SIGN_IDENTITY</key>
+				<string>iPhone Developer: Created via API (WKDN5CG37J)</string>
 				<key>CODE_SIGN_STYLE</key>
-				<string>Automatic</string>
+				<string>Manual</string>
 				<key>CURRENT_PROJECT_VERSION</key>
 				<string>1</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>P7J63583PS</string>
 				<key>GENERATE_INFOPLIST_FILE</key>
 				<string>YES</string>
 				<key>MARKETING_VERSION</key>
@@ -390,16 +379,18 @@
 		</dict>
 		<key>331C808A294A63A400263BE5</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>753A4419461EDCD6F21DA2FF</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>BUNDLE_LOADER</key>
 				<string>$(TEST_HOST)</string>
+				<key>CODE_SIGN_IDENTITY</key>
+				<string>iPhone Developer: Created via API (WKDN5CG37J)</string>
 				<key>CODE_SIGN_STYLE</key>
-				<string>Automatic</string>
+				<string>Manual</string>
 				<key>CURRENT_PROJECT_VERSION</key>
 				<string>1</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>P7J63583PS</string>
 				<key>GENERATE_INFOPLIST_FILE</key>
 				<string>YES</string>
 				<key>MARKETING_VERSION</key>
@@ -472,21 +463,6 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>3E07C0190D520DE2747B0B01</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-RunnerTests.release.xcconfig</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-RunnerTests/Pods-RunnerTests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>5A1D12F02AE66CCD00B26F16</key>
 		<dict>
 			<key>fileEncoding</key>
@@ -538,35 +514,6 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>753A4419461EDCD6F21DA2FF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-RunnerTests.profile.xcconfig</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7942C640E56D4904391E71E8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CF062CBD9BE130D4F3224FD7</string>
-				<string>27968D8D38C24245C62163C1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>7AFA3C8E1D35360C0083082E</key>
 		<dict>
 			<key>isa</key>
@@ -585,9 +532,7 @@
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
-			<array>
-				<string>9D1CEA7FF96739643594D3B1</string>
-			</array>
+			<array/>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
@@ -596,14 +541,7 @@
 		<key>8F1C0D983369B5BAA2433B8F</key>
 		<dict>
 			<key>children</key>
-			<array>
-				<string>D4EB171CE7F484E1AB87B5B3</string>
-				<string>D877D59C8B8550C72F9CCFDA</string>
-				<string>A1415B0A69FD0E1BE277D8F6</string>
-				<string>C1AF0B2B9883C84AB8B20466</string>
-				<string>3E07C0190D520DE2747B0B01</string>
-				<string>753A4419461EDCD6F21DA2FF</string>
-			</array>
+			<array/>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>path</key>
@@ -706,7 +644,6 @@
 				<string>97C146EF1CF9000F007C117D</string>
 				<string>331C8082294A63A400263BE5</string>
 				<string>8F1C0D983369B5BAA2433B8F</string>
-				<string>7942C640E56D4904391E71E8</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -727,6 +664,8 @@
 					<dict>
 						<key>CreatedOnToolsVersion</key>
 						<string>14.0</string>
+						<key>DevelopmentTeam</key>
+						<string>P7J63583PS</string>
 						<key>TestTargetID</key>
 						<string>97C146ED1CF9000F007C117D</string>
 					</dict>
@@ -734,8 +673,12 @@
 					<dict>
 						<key>CreatedOnToolsVersion</key>
 						<string>7.3.1</string>
+						<key>DevelopmentTeam</key>
+						<string>P7J63583PS</string>
 						<key>LastSwiftMigration</key>
 						<string>1100</string>
+						<key>ProvisioningStyle</key>
+						<string>Manual</string>
 					</dict>
 				</dict>
 			</dict>
@@ -802,9 +745,7 @@
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
-			<array>
-				<string>26FD47D81A1B14141564DBBF</string>
-			</array>
+			<array/>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
@@ -833,7 +774,6 @@
 			<string>97C147051CF9000F007C117D</string>
 			<key>buildPhases</key>
 			<array>
-				<string>ABE236004E0B545385F906D5</string>
 				<string>9740EEB61CF901F6004384FC</string>
 				<string>97C146EA1CF9000F007C117D</string>
 				<string>97C146EB1CF9000F007C117D</string>
@@ -1231,6 +1171,10 @@
 				<string>AppIcon</string>
 				<key>CLANG_ENABLE_MODULES</key>
 				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY</key>
+				<string>iPhone Developer: Created via API (WKDN5CG37J)</string>
+				<key>CODE_SIGN_STYLE</key>
+				<string>Manual</string>
 				<key>CURRENT_PROJECT_VERSION</key>
 				<string>$(FLUTTER_BUILD_NUMBER)</string>
 				<key>DEVELOPMENT_TEAM</key>
@@ -1248,6 +1192,8 @@
 				<string>com.org.flutterTestApp</string>
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
+				<key>PROVISIONING_PROFILE_SPECIFIER</key>
+				<string>flutter test app bundle id ios_app_development 1698667553</string>
 				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
 				<string>Runner/Runner-Bridging-Header.h</string>
 				<key>SWIFT_OPTIMIZATION_LEVEL</key>
@@ -1272,6 +1218,10 @@
 				<string>AppIcon</string>
 				<key>CLANG_ENABLE_MODULES</key>
 				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY</key>
+				<string>iPhone Developer: Created via API (WKDN5CG37J)</string>
+				<key>CODE_SIGN_STYLE</key>
+				<string>Manual</string>
 				<key>CURRENT_PROJECT_VERSION</key>
 				<string>$(FLUTTER_BUILD_NUMBER)</string>
 				<key>DEVELOPMENT_TEAM</key>
@@ -1289,6 +1239,8 @@
 				<string>com.org.flutterTestApp</string>
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
+				<key>PROVISIONING_PROFILE_SPECIFIER</key>
+				<string>flutter test app bundle id ios_app_development 1698667553</string>
 				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
 				<string>Runner/Runner-Bridging-Header.h</string>
 				<key>SWIFT_VERSION</key>
@@ -1300,166 +1252,6 @@
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Release</string>
-		</dict>
-		<key>9BE102E871B5DBD2E21A5549</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputFileListPaths</key>
-			<array/>
-			<key>inputPaths</key>
-			<array>
-				<string>${PODS_PODFILE_DIR_PATH}/Podfile.lock</string>
-				<string>${PODS_ROOT}/Manifest.lock</string>
-			</array>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Check Pods Manifest.lock</string>
-			<key>outputFileListPaths</key>
-			<array/>
-			<key>outputPaths</key>
-			<array>
-				<string>$(DERIVED_FILE_DIR)/Pods-RunnerTests-checkManifestLockResult.txt</string>
-			</array>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_PODFILE_DIR_PATH}/Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [ $? != 0 ] ; then
-    # print error to STDERR
-    echo "error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation." &gt;&amp;2
-    exit 1
-fi
-# This output is used by Xcode 'outputs' to avoid re-running this script phase.
-echo "SUCCESS" &gt; "${SCRIPT_OUTPUT_FILE_0}"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>9D1CEA7FF96739643594D3B1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>27968D8D38C24245C62163C1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A1415B0A69FD0E1BE277D8F6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Runner.profile.xcconfig</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ABE236004E0B545385F906D5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputFileListPaths</key>
-			<array/>
-			<key>inputPaths</key>
-			<array>
-				<string>${PODS_PODFILE_DIR_PATH}/Podfile.lock</string>
-				<string>${PODS_ROOT}/Manifest.lock</string>
-			</array>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Check Pods Manifest.lock</string>
-			<key>outputFileListPaths</key>
-			<array/>
-			<key>outputPaths</key>
-			<array>
-				<string>$(DERIVED_FILE_DIR)/Pods-Runner-checkManifestLockResult.txt</string>
-			</array>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_PODFILE_DIR_PATH}/Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [ $? != 0 ] ; then
-    # print error to STDERR
-    echo "error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation." &gt;&amp;2
-    exit 1
-fi
-# This output is used by Xcode 'outputs' to avoid re-running this script phase.
-echo "SUCCESS" &gt; "${SCRIPT_OUTPUT_FILE_0}"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>C1AF0B2B9883C84AB8B20466</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-RunnerTests.debug.xcconfig</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-RunnerTests/Pods-RunnerTests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CF062CBD9BE130D4F3224FD7</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_Runner.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D4EB171CE7F484E1AB87B5B3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Runner.debug.xcconfig</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D877D59C8B8550C72F9CCFDA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Runner.release.xcconfig</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
