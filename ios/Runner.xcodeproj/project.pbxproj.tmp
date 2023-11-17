@@ -226,7 +226,7 @@ echo "SUCCESS" &gt; "${SCRIPT_OUTPUT_FILE_0}"
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
 				<key>PROVISIONING_PROFILE_SPECIFIER</key>
-				<string>flutter test app bundle id ios_app_adhoc 1698669000</string>
+				<string>flutter test app bundle id ios_app_adhoc 1700212782</string>
 				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
 				<string>Runner/Runner-Bridging-Header.h</string>
 				<key>SWIFT_VERSION</key>
@@ -777,7 +777,7 @@ echo "SUCCESS" &gt; "${SCRIPT_OUTPUT_FILE_0}"
 			<key>attributes</key>
 			<dict>
 				<key>LastUpgradeCheck</key>
-				<string>1430</string>
+				<string>1300</string>
 				<key>ORGANIZATIONNAME</key>
 				<string></string>
 				<key>TargetAttributes</key>
@@ -1318,7 +1318,7 @@ echo "SUCCESS" &gt; "${SCRIPT_OUTPUT_FILE_0}"
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
 				<key>PROVISIONING_PROFILE_SPECIFIER</key>
-				<string>flutter test app bundle id ios_app_adhoc 1698669000</string>
+				<string>flutter test app bundle id ios_app_adhoc 1700212782</string>
 				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
 				<string>Runner/Runner-Bridging-Header.h</string>
 				<key>SWIFT_OPTIMIZATION_LEVEL</key>
@@ -1365,7 +1365,7 @@ echo "SUCCESS" &gt; "${SCRIPT_OUTPUT_FILE_0}"
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
 				<key>PROVISIONING_PROFILE_SPECIFIER</key>
-				<string>flutter test app bundle id ios_app_adhoc 1698669000</string>
+				<string>flutter test app bundle id ios_app_adhoc 1700212782</string>
 				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
 				<string>Runner/Runner-Bridging-Header.h</string>
 				<key>SWIFT_VERSION</key>
